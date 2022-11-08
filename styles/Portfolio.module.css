@@ -1,0 +1,16 @@
+.projectsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.projectBody {
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 3em;
+}
+
+.portfolioPage {
+    color: white; 
+}

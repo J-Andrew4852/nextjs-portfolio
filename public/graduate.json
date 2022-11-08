@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Larry",
+        "bio": "larry is a student"
+    },
+    {
+        "id": 2,
+        "name": "Barry",
+        "bio": "barry is a student"
+    },
+    {
+        "id": 3,
+        "name": "Garry",
+        "bio": "garry is a student"
+    }
+]

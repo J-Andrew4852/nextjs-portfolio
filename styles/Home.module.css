@@ -1,0 +1,174 @@
+.homeBody {
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 3em;
+}
+.introArea {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+}
+
+.option {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.option:hover {
+    outline: 1px solid rgb(192, 192, 192);
+}
+
+.homePageTop {
+    color: white;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A101C;
+}
+
+.showreelSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.showreelVideo {
+    height: 60vh;
+}
+
+.homeShowreelHeader {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 8vh 0 7vh 0;
+}
+
+.homeExpertiseHeader {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 8vh 0 7vh 0;
+}
+.expertiseBox {
+    display: flex;
+    height: 20vh;
+}
+.expertiseLink {
+    display: flex;
+    height: 2.2em;
+    width: 15em;
+    background-color: black;
+    border-radius: 10vh;
+    margin: 0 4vw 0 4vw;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.orange {
+    outline: 0.1em solid #F49747;
+    color: #F49747;
+}
+.purple {
+    outline: 0.1em solid #BF79B3;
+    color: #BF79B3;
+}
+.blue {
+    outline: 0.1em solid #549BFF;
+    color: #549BFF;
+}
+.orange:hover {
+    outline: 0.3em solid #F49747;
+}
+.purple:hover {
+    outline: 0.3em solid #BF79B3;
+}
+.blue:hover {
+    outline: 0.3em solid #549BFF;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    padding: 0 5vw 0 5vw;
+}
+.greenLineV {
+    height: 0.1em;
+    width: 5em;
+    background-color: #38BEB9;
+}
+.webHover {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F5E551;
+    margin-top: 15vh;
+}
+.newWebsite {
+    font-size: 1.5em;
+}
+.webLine {
+    background-color: #F5E551;
+    width: 15%;
+    height: 3px;
+    border-radius: 5px;  
+    transition: 0.3s ease;
+    margin-top: 0.4em;
+}
+.webHover:hover > div {
+    width: 85%;
+}
+
+.homePageMid {
+    color: white;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A101C;
+    padding: 0 4vw 0 4vw;
+}
+
+.aboutMe {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.myImage {
+    height: 70vh;
+    display: relative;
+    height: auto;
+    width: 53vh;
+}
+.aboutTextBox {
+    height: 70vh;
+    width: 60vw;
+}
+.aboutTextBox > h2 {
+    margin: 3vh 0 5vh 5vw;
+}
+.aboutTextBox > p {
+    margin: 3vh 0 5vh 5vw;
+}
