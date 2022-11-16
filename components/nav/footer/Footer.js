@@ -56,9 +56,9 @@ export const Footer = () => {
                     <div className={styles.footerRight}>
                         <p className={styles.textWork}>I am currently looking for work as a Front-End Web Developer</p>
                         <div className={styles.textQuotes}>
-                            <p>"James is an efficient and hard worker who willingly takes on responsibilities when issues arise, communicating well and finding solutions."<br></br><br></br><span style={{fontWeight: '300'}}>Previous Employer - Sarah Chaplin</span></p>
-                            <p> <br></br><br></br><br></br> </p>
-                            <p> <br></br><br></br><br></br> </p>
+                            <p>&quot;James is an efficient and hard worker who willingly takes on responsibilities when issues arise, communicating well and finding solutions.&quot;<br></br><br></br><span style={{fontWeight: "300"}}>Previous Employer - Sarah Chaplin</span></p>
+                            <p><br></br><br></br><br></br></p>
+                            <p><br></br><br></br><br></br></p>
                         </div>
                     </div>
                 </div>
