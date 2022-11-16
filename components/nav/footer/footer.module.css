@@ -55,12 +55,15 @@
 .textQuotes > p:nth-child(1) {
     padding: 3vh 3vw 3vh 3vw;
     background-color: #F49747;
+    width: 33%;
 }
 .textQuotes > p:nth-child(2) {
     padding: 3vh 3vw 3vh 3vw;
     background-color: #BF79B3;
+    width: 33%;
 }
 .textQuotes > p:nth-child(3) {
     padding: 3vh 3vw 3vh 3vw;
     background-color: #549BFF;
+    width: 34%;
 }

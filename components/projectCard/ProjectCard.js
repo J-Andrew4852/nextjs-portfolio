@@ -16,7 +16,7 @@ import styles from './project-card.module.css'
 /* 
 Component Name: Project Card
 
-Author: Logan Trundle
+Author: James Andrew
 Collaborators:
 Version #: 1.0.0
 Date Created: 16/09/2022
@@ -51,7 +51,7 @@ export const GradCard = ({data}) => {
                 <div className={styles.mainContent}>
                     <div className={styles.cardLeftSplit}>
                         {/* <Image src={`${IMG_TO_SRC[data.image]}`} layout='fill'></Image> */}
-                        <Image src={data.image} layout='fill' objectFit="cover"></Image>
+                        <Image src={data.image} layout='fill' objectFit="cover"  priority></Image>
                     </div>
                     <div className={styles.contentLine} style={{backgroundColor: `${data.colour}`}}></div>
                     <div className={styles.cardRightSplit}>

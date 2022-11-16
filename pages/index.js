@@ -58,7 +58,7 @@ export default function Home() {
     <div className={styles.homePageMid}>
       <div className={styles.aboutMe}>
         <div className={styles.myImage}>
-          <Image src={gradImage} alt="My Graduate Image" layout={'responsive'} width={783} height={1175}/>
+          <Image src={gradImage} alt="My Graduate Image" layout={'responsive'} width={783} height={1175} priority/>
         </div>
         <div className={styles.aboutTextBox}>
           <h2>About Me</h2>
