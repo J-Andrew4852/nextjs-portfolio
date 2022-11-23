@@ -11,8 +11,6 @@ import gradImage from '../public/images/portrait-photo.JPG'
 
 export default function Home() {
 
-  const [name, setName] = useState('... wait ... who are you?')
-
   return (
     <div className={styles.container}>
       <Head>
