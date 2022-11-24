@@ -10,7 +10,9 @@
     color: rgb(255, 255, 255);
     position: fixed;
     z-index: 22;
-    padding-left: 4vw;
+    padding-left: 10vw;
+    padding-right: 8vw;
+    font-size: 1.3em;
 }
 
 .logo {
@@ -46,8 +48,8 @@
     background-color: #38BEB9;
 }
 .miniLogo {
-    height: 55px;
-    width: 55px;
+    height: 70px;
+    width: 70px;
 }
 .navOption {
     color: white;
