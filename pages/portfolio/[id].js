@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { PageTitleHeader } from '../../components/pageTitleHeader/PageTitleHeader'
 import styles from '../../styles/Projects.module.css'
 import { portfolio } from '../api/projects.js'
+import { Footer } from '../../components/nav/footer/Footer'
 
 
 export default function ProjectmDetail({ project }) {
@@ -27,6 +28,7 @@ export default function ProjectmDetail({ project }) {
                 <p className={styles.warning}>Due to time constraints, I have been unable to complete this project page. I am hard at work on completing the website and this page will be completed soon.</p>
                 <br/>
             </div>
+            <Footer/>
         </div>
     )
 }

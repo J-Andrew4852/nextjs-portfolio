@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { PageTitleHeader } from '../components/pageTitleHeader/PageTitleHeader'
 import styles from '../styles/Contact.module.css'
+import { Footer } from '../components/nav/footer/Footer'
 
 export default function Contact() {
 
@@ -21,6 +22,7 @@ export default function Contact() {
             I am open to working on all projects within Digital Design. I would prefer to work in a group and learn from the experience of others, although I am confident in leading a project to completion on my own. I especially look forward to Web Development projects as I am confident in my Front-End capabilities and am improving on my Back-End development skills.
           </div>
       </div>
+      <Footer/>
     </div>
   )
 }

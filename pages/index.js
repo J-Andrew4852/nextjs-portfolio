@@ -8,6 +8,7 @@ import cV from './CV.svg'
 import linkedIn from './LinkedIn.svg'
 import faceBook from './Facebook.svg'
 import gradImage from '../public/images/portrait-photo.JPG'
+import { Footer } from '../components/nav/footer/Footer'
 
 export default function Home() {
 
@@ -86,6 +87,7 @@ export default function Home() {
       </Link> */}
       </div>
     </div>
+    <Footer/>
     </div>
   )
 }

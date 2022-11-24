@@ -44,7 +44,6 @@ export const Layout = ({children}) => {
                     <main className={styles.main} id={`top`}>
                         {children}
                     </main>
-                <Footer/>
             </div>
         )
 }

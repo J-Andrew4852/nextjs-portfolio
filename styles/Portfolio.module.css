@@ -1,3 +1,7 @@
+.portfolioPage {
+    color: white;
+    background-color: #0A101C;
+}
 .projectsList {
     display: flex;
     flex-wrap: wrap;

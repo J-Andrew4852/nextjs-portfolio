@@ -1,0 +1,8 @@
+.gradshowPage {
+    height: calc(100vh - var(70px));
+    overflow: hidden;
+}
+.container {
+    padding: 3em 5em 3em 5em;
+}
+

@@ -51,6 +51,9 @@ export const Navbar = () => {
                     <Link href='/contact#top'>
                         <a className={router.pathname.startsWith('/contact') ? `${styles.link_active}` : ""}>Contact</a>
                     </Link>
+                    <Link href='/gradshow#top'>
+                        <a className={router.pathname.startsWith('/gradshow') ? `${styles.link_active}` : ""}>Grad Show</a>
+                    </Link>
                 </div>
             </nav>
         )

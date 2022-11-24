@@ -1,3 +1,6 @@
+.container {
+    background-color: #10192B;
+}
 .homeBody {
     max-width: 800px;
     margin-inline: auto;

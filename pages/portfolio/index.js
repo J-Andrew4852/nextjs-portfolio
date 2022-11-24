@@ -6,6 +6,7 @@ import { PageTitleHeader } from '../../components/pageTitleHeader/PageTitleHeade
 import styles from '../../styles/Portfolio.module.css'
 import { portfolio } from '../api/projects.js'
 import image1 from '../../public/images/BiblioFile.jpg'
+import { Footer } from '../../components/nav/footer/Footer'
 
 
 export default function Portfolio({ portfolio }) {
@@ -32,7 +33,7 @@ export default function Portfolio({ portfolio }) {
               <GradCard key={project.id} data={project}/>
           ))}
       </div>
-
+      <Footer/>
     </div>
   )
 }
