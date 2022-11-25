@@ -28,13 +28,15 @@
     line-height: 150%;
 }
 
-
+.rightSplit {
+    margin: 0 0 0 auto;
+}
 .splitContainer {
     display: flex;
     padding: 5vh 0 0 0;
 }
 .leftSplit {
-    width: 49%;
+    width: 50%;
     /* background-color: red; */
     height: 60vh;
     margin: 0 2vw 0 0;
@@ -134,7 +136,6 @@
     width: 50%;
     /* background-color: blue; */
     height: 60vh;
-    margin: 0 2vw 0 0;
     position: relative;
     cursor: pointer;
 }
